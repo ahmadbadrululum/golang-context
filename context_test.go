@@ -123,5 +123,7 @@ func TestContextWithDeadline(t *testing.T) {
 
 	time.Sleep(2 * time.Second)
 
+	fmt.Println("testing deadline")
+
 	fmt.Println("Total Goroutine", runtime.NumGoroutine())
 }
